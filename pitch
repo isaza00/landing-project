@@ -1,0 +1,9 @@
+Good day, I am Sebastian Escobar and along with Norman Isaza and Santiago Arboleda we assemble the group called: More than two less than four.
+We are responsible for an API that allows individuals, without the need of intermediaries (known as brokers) to add and manage properties they want to add to La Haus database for a modest fee.
+As you may have guessed, La Haus is a real state agency with a heavy focus on digital media and accessibility through it.
+
+Currently, La Haus includes properties to their own database with a combination of the brokers, who gather the data for them and a google form, which then is manually parsed into their servers, this means that the scalability of the system is limited to the human speed of parsing the inputs (and dealing with any errors while filling the forms) and also, puts a big barrier for individuals who want to sell or rent but don't want to pay nor have the hassle of dealing with brokers.
+
+For this, in conjunction with another Holberton team, we are developing a mobile app that allows users to add their own properties, without a broker and then promptly add such entries, given they pass the validations, to the database without human intervention. This will fix both the need for a broker for individuals, the need for human parsing of the data given by the user and will also make more rapidly all the other processes related to new entries for their servers.
+
+The API was made with Ruby On Rails, both because it's easy enough to rapidly develop and deploy and also because it's what's being used already in La Haus, so it can be easily integrated with their code. There's, in addition, a basic image quality assurance script made in Python, with which we determine wether or not a photo is well illuminated and focused or not; the reason for Python being the already existing and deeply optimized libraries for image handling.

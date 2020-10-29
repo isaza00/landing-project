@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Final project</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Rails API for LaHaus</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/lahaus.png" alt="" /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Current Situation</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Technologies</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Program Flow</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#members">Members</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        Rails API for
+                        <span class="text-primary">LaHaus</span>
+                    </h1>
+                    <div class="subheading mb-5">
+                        Santiago Arboleda · Sebastian Escobar · Norman Isaza
+                    </div>
+                    <p class="lead mb-5">We are responsible for an API that allows individuals, without the need of intermediaries (known as brokers) to add and manage properties they want to add to La Haus database for a modest fee.
+                      As you may have guessed, La Haus is a real state agency with a heavy focus on digital media and accessibility through it.</p>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Experience-->
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Current situation</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <div class="subheading mb-3">The Issue</div>
+                            <p>Currently, La Haus includes properties to their own database with a combination of the brokers, who gather the data for them and a google form, which then is manually parsed into their servers, this means that the scalability of the system is limited to the human speed of parsing the inputs (and dealing with any errors while filling the forms) and also, puts a big barrier for individuals who want to sell or rent but don't want to pay nor have the hassle of dealing with brokers.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <div class="subheading mb-3">The Solution</div>
+                            <p>For this, in conjunction with another Holberton team, we are developing a mobile app that allows users to add their own properties, without a broker and then promptly add such entries, given they pass the validations, to the database without human intervention. This will fix both the need for a broker for individuals, the need for human parsing of the data given by the user and will also make more rapidly all the other processes related to new entries for their servers.
+
+                              The API was made with Ruby On Rails, both because it's easy enough to rapidly develop and deploy and also because it's what's being used already in La Haus, so it can be easily integrated with their code. There's, in addition, a basic image quality assurance script made in Python, with which we determine wether or not a photo is well illuminated and focused or not; the reason for Python being the already existing and deeply optimized libraries for image handling.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+            <hr class="m-0" />
+            <hr class="m-0" />
+            <!-- Skills-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Technologies</h2>
+                    <div class="subheading mb-3">Programming Languages & Tools Used</div>
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-python"></i></li>
+                        <li class="list-inline-item"><i class="far fa-gem"></i></li>
+                    </ul>
+                    <div class="subheading mb-3">Main Framework: Ruby on Rails</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            For rapid application development and deployment in Heroku 
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Ruby code is very readable and mostly self-documenting
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Ruby is the main language used in LaHaus
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Computer vision and images libraries in Python
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Interests-->
+            <section class="resume-section" id="interests">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Program FLow</h2>
+                    <p>XXX</p>
+                    <p class="mb-0">XXX</p>
+                </div>
+            </section>
+
+            <section class="resume-section" id="members"">
+              <div class="row">
+
+                <div class="col-sm-4 bio">
+                  <div class="row justify-content-center align-items-center">
+                    <span class="d-none d-lg-block text-center"><img class="img-fluid img-profile rounded-circle" src="assets/img/norman.jpeg" alt="" /></span>
+                  </div>
+                  <div class="row justify-content-center text-center">
+                    <p class="life">Full-stack software developer, Electronic engineer and Finance specialist, with great passion for web development, machine learning and fintech.</p>
+                  </div>
+                  <div class="row social-icons justify-content-center">
+                    <a class="social-icon" href="https://www.linkedin.com/in/norman-isaza-47262b3/"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="social-icon" href="https://github.com/isaza00"><i class="fab fa-github"></i></a>
+                  </div>
+                </div>
+
+                <div class="col-sm-4 bio">
+                  <div class="row justify-content-center align-items-center">
+                    <span class="d-none d-lg-block text-center"><img class="img-fluid img-profile rounded-circle" src="assets/img/sebastian.jpeg" alt="" /></span>
+                  </div>
+                  <div class="row justify-content-center text-center">
+                    <p class="life">Learning and solving problems is what keeps me motivated. I'm a person who finds in software engineering the opportunity to do so in a creative way.</p>
+                  </div>
+                  <div class="social-icons row justify-content-center">
+                    <a class="social-icon" href="https://www.linkedin.com/in/sebastianescobarj/"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="social-icon" href="https://github.com/Katorea132"><i class="fab fa-github"></i></a>
+                  </div>
+                </div>
+
+                <div class="col-sm-4 bio">
+                  <div class="row justify-content-center align-items-center">
+                    <span class="d-none d-lg-block text-center"><img class="img-fluid img-profile rounded-circle" src="assets/img/santiago.jpeg" alt="" /></span>
+                  </div>
+                  <div class="row justify-content-center text-center">
+                    <p class="life">Since I was a child I always dreamed about myself being capable of doing programs/software that can change the perspective of my life.</p>
+                  </div>
+                  <div class="social-icons row justify-content-center">
+                    <a class="social-icon" href="https://www.linkedin.com/in/santiago-arboleda-salinas-4a4a631b5"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="social-icon" href="https://github.com/Blazeker"><i class="fab fa-github"></i></a>
+                  </div>
+                </div>
+
+                
+
+              </div>
+            </section>
+            <hr class="m-0" />
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
